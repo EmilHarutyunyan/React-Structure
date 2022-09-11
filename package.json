@@ -22,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "component": "generate-react component",
+    "page": "generate-react component  --type=page"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "generate-react-cli": "^7.3.0",
     "netlify-cli": "^10.11.2",
     "workerize-loader": "^2.0.2"
   }
